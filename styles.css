@@ -504,7 +504,8 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
 }
 @media (max-width: 720px) {
   .site-header {
-    padding-left: 22px !important;
+    /* Move the logo's visible left edge toward the banner text's 22px gutter. */
+    padding-left: 8px !important;
     padding-right: 22px !important;
   }
 }
