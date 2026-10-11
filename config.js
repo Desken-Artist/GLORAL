@@ -1,5 +1,5 @@
 /*
-  GLoiART SETTINGS
+  GLORAL Arts SETTINGS
   -----------------
   1. Replace WHATSAPP_NUMBER with your full WhatsApp number, including Cameroon country code 237,
      with NO +, spaces or brackets.

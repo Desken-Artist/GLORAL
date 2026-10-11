@@ -1,6 +1,6 @@
-# GLoiART — GitHub Pages Website
+# GLORAL Arts — GitHub Pages Website
 
-A free, static artwork portfolio/shopfront for GLoiART.
+A free, static artwork portfolio/shopfront for GLORAL Arts.
 
 ## What is included
 
@@ -17,7 +17,7 @@ A free, static artwork portfolio/shopfront for GLoiART.
   - print availability
 - Hero/banner section
 - About the Artist
-- About GLoiART video section
+- About GLORAL Arts video section
 - Nature-inspired visual design
 - No server/database required
 
@@ -72,7 +72,7 @@ Put MP4 files in:
 
 The website already points each artwork to a process-video filename. Change those filenames in `config.js` to match your videos.
 
-For the About GLoiART section, replace:
+For the About GLORAL Arts section, replace:
 
 `assets/videos/about-gloliart.mp4`
 
@@ -84,12 +84,18 @@ The supplied hero is an editable CSS illustration so the website works immediate
 
 If you want a real photographic banner later, replace the `.hero-art` section in `index.html`/`styles.css` with your own image.
 
+## Updating the existing GLORAL repository
+
+For the existing repository `Desken-Artist/GLORAL`, extract this ZIP and upload the **contents** of the extracted folder to the repository root, replacing the older files with the same names. Keep the `assets` folder and its subfolders. Do not upload only the ZIP file itself. Then commit the changes on the `main` branch and wait for the GitHub Pages deployment in the Actions tab to finish.
+
+Before using the contact buttons publicly, replace the placeholder WhatsApp number, email address, social URLs, and WhatsApp Community invite link in `config.js` with your real details.
+
 ## Publish for free with GitHub Pages
 
 1. Create a GitHub account at https://github.com if you don't already have one.
 2. Create a new repository.
 3. A good repository name is:
-   `gloiart`
+   `GLORAL`
 4. Upload everything inside this folder:
    - `index.html`
    - `styles.css`
@@ -103,7 +109,7 @@ If you want a real photographic banner later, replace the `.hero-art` section in
    - Folder: **/ (root)**
 7. Save.
 8. GitHub will give you a Pages address similar to:
-   `https://YOUR-USERNAME.github.io/gloiart/`
+   `https://desken-artist.github.io/GLORAL/`
 
 ## If you want the shorter address
 

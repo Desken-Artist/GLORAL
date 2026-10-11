@@ -367,7 +367,7 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
   .site-header { padding-left:14px; padding-right:14px; }
 }
 
-/* v16: use only the full GLoiART logo and align header/banner with page content */
+/* v16: use only the full GLORAL Arts logo and align header/banner with page content */
 .brand-g-circle, .brand-logo-g, .brand-mark, .footer-g-circle { display:none !important; }
 .footer-brand { justify-content:center; }
 .footer-logo-full { display:block; width:clamp(150px,18vw,185px); max-height:50px; object-fit:contain; }
@@ -433,7 +433,7 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
 }
 
 
-/* GLoiART v18 refinements */
+/* GLORAL Arts v18 refinements */
 .gallery-coming-soon h3,
 .gallery-coming-soon .coming-soon-subtitle,
 .gallery-coming-soon .coming-soon-invite {

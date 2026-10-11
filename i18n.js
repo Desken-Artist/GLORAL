@@ -1,18 +1,19 @@
 const I18N = {
   en: {
-    home: 'GLoiART home', heroImage: 'Modern living room with artwork and plants',
+    home: 'GLORAL Arts home', heroImage: 'Modern living room with artwork and plants',
     openMenu: 'Open navigation menu', closeMenu: 'Close navigation menu',
     gallery: 'Gallery', artist: 'Artist', aboutGLoiART: 'About GLORAL Arts', contactMe: 'Contact Me',
     languageSwitch: 'Français',
     hero: 'Decorate <span>your space</span> with Artworks that reflect the <em>Glory of God</em>',
     collection: 'The collection', artworkGallery: 'Artwork Gallery',
     galleryNote: 'Explore selected pieces from the collection. Open an artwork to see its full details, process, and print options.',
+    noArtwork: "Something beautiful is in the making",
     comingSoonTitle: "Something beautiful is in the making",
     comingSoonSubtitle: "The art gallery is currently being prepared",
     comingSoonInvite: "Join the WhatsApp community and STAY TUNED",
     joinCommunity: "Join WhatsApp Community",
     aboutArtist: 'About the Artist', artistRole: 'Artist • Illustrator • Creator',
-    artistBio1: `Hi! I'm Manesong Kenyem Tchoumen. I hold a BFA degree from the Institute of Fine Arts Nkongsamba, Cameroon.`,
+    artistBio1: `Hi! I'm Manesong Kenyem Tchoumen. I hold a Bachelor of Fine Arts degree from the Institute of Fine Arts of Nkongsamba, Cameroon.`,
     artistBio2: `My work is heavily inspired by the beauty of the natural world, which I find in nature and in people.`,
     artistBio3: `The beauty of nature reflects the Glory of God through its design and function. You and I are also part of the natural creation.`,
     artistBio4: `Therefore, I seek to create artworks that invite people to recognize the Glory of God in nature, and realize that their lives can also reflect God's Glory through choices that align with Him.`,
@@ -25,9 +26,9 @@ const I18N = {
     commission: 'COMMISSION ME', commissionCopy: 'Do you want a specific custom made Artwork? Whether you are an individual, a hotel, an office, a restaurant, lounge or any type of institution, I got you!',
     chatWhatsApp: 'Chat on WhatsApp', email: 'Email',
     footerBio: 'Creating Artworks inspired by the beauty of nature, that reflects the Glory of God.',
-    allCollection: 'The complete collection', allArtworks: 'All Artworks', allIntro: 'Explore every artwork currently uploaded to the GLoiART collection.', backGallery: '← Back to gallery',
+    allCollection: 'The complete collection', allArtworks: 'All Artworks', allIntro: 'Explore every artwork currently uploaded to the GLORAL Arts collection.', backGallery: '← Back to gallery',
     artworkNotFound: 'Artwork not found', returnGallery: 'Return to gallery', loadingArtwork: 'Loading artwork...',
-    artworkLabel: 'GLoiART • Artwork', viewArtwork: 'View artwork', buy: 'BUY', buyArtwork: 'BUY Artwork',
+    artworkLabel: 'GLORAL Arts • Artwork', viewArtwork: 'View artwork', buy: 'BUY', buyArtwork: 'BUY Artwork',
     size: 'Size', medium: 'Medium', original: 'Original', prints: 'Prints',
     addArtworkSize: 'Add artwork size', addMedium: 'Add medium', contactAvailability: 'Contact for availability',
     theStory: 'The story', aboutArtwork: 'About the artwork', behindArtwork: 'Behind the artwork', watchProcess: 'Watch the process',
@@ -37,13 +38,14 @@ const I18N = {
     browserHTML5: 'Your browser does not support HTML5 video.'
   },
   fr: {
-    home: 'Accueil GLoiART', heroImage: 'Salon moderne avec œuvre d’art et plantes',
+    home: 'Accueil GLORAL Arts', heroImage: 'Salon moderne avec œuvre d’art et plantes',
     openMenu: 'Ouvrir le menu de navigation', closeMenu: 'Fermer le menu de navigation',
     gallery: 'Galerie', artist: 'Artiste', aboutGLoiART: 'À propos de GLORAL Arts', contactMe: 'Me contacter',
     languageSwitch: 'English',
     hero: 'Décorez <span>votre espace</span> avec des œuvres qui reflètent la <em>Gloire de Dieu</em>',
     collection: 'La collection', artworkGallery: 'Galerie d’œuvres',
     galleryNote: 'Découvrez une sélection d’œuvres de la collection. Ouvrez une œuvre pour voir ses détails, son processus et les options d’impression.',
+    noArtwork: "Quelque chose de beau se prépare",
     comingSoonTitle: "Quelque chose de beau se prépare",
     comingSoonSubtitle: "La galerie d’art est en cours de préparation",
     comingSoonInvite: "Rejoignez la communauté WhatsApp et RESTEZ À L’ÉCOUTE",
@@ -62,9 +64,9 @@ const I18N = {
     commission: 'COMMANDEZ-MOI', commissionCopy: 'Vous souhaitez une œuvre personnalisée ? Que vous soyez un particulier, un hôtel, un bureau, un restaurant, un lounge ou tout autre type d’institution, je suis là pour vous !',
     chatWhatsApp: 'Discuter sur WhatsApp', email: 'E-mail',
     footerBio: 'Créer des œuvres inspirées par la beauté de la nature, qui reflètent la Gloire de Dieu.',
-    allCollection: 'La collection complète', allArtworks: 'Toutes les œuvres', allIntro: 'Découvrez toutes les œuvres actuellement ajoutées à la collection GLoiART.', backGallery: '← Retour à la galerie',
+    allCollection: 'La collection complète', allArtworks: 'Toutes les œuvres', allIntro: 'Découvrez toutes les œuvres actuellement ajoutées à la collection GLORAL Arts.', backGallery: '← Retour à la galerie',
     artworkNotFound: 'Œuvre introuvable', returnGallery: 'Retour à la galerie', loadingArtwork: 'Chargement de l’œuvre...',
-    artworkLabel: 'GLoiART • Œuvre', viewArtwork: 'Voir l’œuvre', buy: 'ACHETER', buyArtwork: 'ACHETER l’œuvre',
+    artworkLabel: 'GLORAL Arts • Œuvre', viewArtwork: 'Voir l’œuvre', buy: 'ACHETER', buyArtwork: 'ACHETER l’œuvre',
     size: 'Dimensions', medium: 'Technique', original: 'Original', prints: 'Impressions',
     addArtworkSize: 'Ajoutez les dimensions', addMedium: 'Ajoutez la technique', contactAvailability: 'Contactez-moi pour la disponibilité',
     theStory: 'L’histoire', aboutArtwork: 'À propos de l’œuvre', behindArtwork: 'Dans les coulisses', watchProcess: 'Voir le processus',
@@ -84,19 +86,19 @@ function applyLanguage(){
   document.querySelectorAll('[data-i18n-title]').forEach(el=>{ const key=el.dataset.i18nTitle; if(I18N[lang][key]!==undefined) el.title=I18N[lang][key]; });
   const switcher=document.getElementById('languageToggle');
   if(switcher){ switcher.textContent=tr('languageSwitch'); switcher.setAttribute('aria-label', lang==='en'?'Switch to French':'Passer en anglais'); }
-  const titleBase=document.body.classList.contains('artwork-page')?'GLoiART | Artwork':location.pathname.endsWith('all-artworks.html')?'GLoiART | '+tr('allArtworks'):'GLoiART | '+(lang==='fr'?'Art inspiré par la nature et la Gloire de Dieu':'Art inspired by nature & the Glory of God');
+  const titleBase=document.body.classList.contains('artwork-page')?'GLORAL Arts | Artwork':location.pathname.endsWith('all-artworks.html')?'GLORAL Arts | '+tr('allArtworks'):'GLORAL Arts | '+(lang==='fr'?'Art inspiré par la nature et la Gloire de Dieu':'Art inspired by nature & the Glory of God');
   document.title=titleBase;
   const descriptions={
     en: document.body.classList.contains('artwork-page')
-      ? 'Explore artwork details, the creative process, and print options from GLoiART by Cameroonian artist Manesong Kenyem Tchoumen.'
+      ? 'Explore artwork details, the creative process, and print options from GLORAL Arts by Cameroonian artist Manesong Kenyem Tchoumen.'
       : location.pathname.endsWith('all-artworks.html')
-        ? 'Browse the GLoiART art collection by Cameroonian artist Manesong Kenyem Tchoumen. Explore nature-inspired original artworks and prints.'
-        : 'Discover GLoiART, original artworks by Cameroonian artist Manesong Kenyem Tchoumen, inspired by the beauty of nature and created to reflect the Glory of God.',
+        ? 'Browse the GLORAL Arts art collection by Cameroonian artist Manesong Kenyem Tchoumen. Explore nature-inspired original artworks and prints.'
+        : 'Discover GLORAL Arts, original artworks by Cameroonian artist Manesong Kenyem Tchoumen, inspired by the beauty of nature and created to reflect the Glory of God.',
     fr: document.body.classList.contains('artwork-page')
-      ? 'Découvrez les détails des œuvres, leur processus de création et les options d’impression de GLoiART, par l’artiste camerounais Manesong Kenyem Tchoumen.'
+      ? 'Découvrez les détails des œuvres, leur processus de création et les options d’impression de GLORAL Arts, par l’artiste camerounais Manesong Kenyem Tchoumen.'
       : location.pathname.endsWith('all-artworks.html')
-        ? 'Parcourez la collection GLoiART de l’artiste camerounais Manesong Kenyem Tchoumen : des œuvres originales inspirées par la nature et des impressions.'
-        : 'Découvrez GLoiART, des œuvres originales de l’artiste camerounais Manesong Kenyem Tchoumen, inspirées par la beauté de la nature et créées pour refléter la Gloire de Dieu.'
+        ? 'Parcourez la collection GLORAL Arts de l’artiste camerounais Manesong Kenyem Tchoumen : des œuvres originales inspirées par la nature et des impressions.'
+        : 'Découvrez GLORAL Arts, des œuvres originales de l’artiste camerounais Manesong Kenyem Tchoumen, inspirées par la beauté de la nature et créées pour refléter la Gloire de Dieu.'
   };
   const description=document.querySelector('meta[name="description"]');
   if(description) description.content=descriptions[lang];

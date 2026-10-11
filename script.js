@@ -1,7 +1,7 @@
-function whatsappUrl(message){return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message||"Hello GLoiART, I would like to enquire about an artwork.")}`;}
+function whatsappUrl(message){return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message||"Hello GLORAL Arts, I would like to enquire about an artwork.")}`;}
 
 function createArtworkCard(art,index){
-  const m=`Hello GLoiART, I would like to enquire about "${art.title}".`;
+  const m=`Hello GLORAL Arts, I would like to enquire about "${art.title}".`;
   const c=document.createElement("article");
   c.className="art-card";
   c.innerHTML=`<div class="art-image-wrap"><img class="art-image" src="${art.image}" alt="${art.title}" loading="lazy"></div>
@@ -84,10 +84,10 @@ function init(){
     }
   }
 
-  const m="Hello GLoiART, I would like to know more about your artworks.";
+  const m="Hello GLORAL Arts, I would like to know more about your artworks.";
   const email=document.getElementById("ctaEmail");
   if(email) email.href=`mailto:${CONTACT_EMAIL}`;
-  const social={socialTikTok:TIKTOK_URL,socialFacebook:FACEBOOK_URL,socialYouTube:YOUTUBE_URL,socialInstagram:INSTAGRAM_URL,socialWhatsApp:whatsappUrl("Hello GLoiART, I would like to contact you.")};
+  const social={socialTikTok:TIKTOK_URL,socialFacebook:FACEBOOK_URL,socialYouTube:YOUTUBE_URL,socialInstagram:INSTAGRAM_URL,socialWhatsApp:whatsappUrl("Hello GLORAL Arts, I would like to contact you.")};
   Object.entries(social).forEach(([id,url])=>{const el=document.getElementById(id);if(el&&url)el.href=url;});
 
   const toggle=document.getElementById("menuToggle");
