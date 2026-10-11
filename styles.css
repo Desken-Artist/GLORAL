@@ -367,14 +367,15 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
   .site-header { padding-left:14px; padding-right:14px; }
 }
 
-/* v16: use only the full GLORAL Arts logo and align header/banner with page content */
+/* v17: slightly enlarge the full GLORAL Arts logos in the header and footer */
 .brand-g-circle, .brand-logo-g, .brand-mark, .footer-g-circle { display:none !important; }
+.brand-logo-full { display:block; width:clamp(150px,14vw,195px); max-height:50px; object-fit:contain; }
 .footer-brand { justify-content:center; }
-.footer-logo-full { display:block; width:clamp(150px,18vw,185px); max-height:50px; object-fit:contain; }
+.footer-logo-full { display:block; width:clamp(165px,19vw,205px); max-height:56px; object-fit:contain; }
 @media (max-width:720px) {
   .site-header { padding-left:16px; padding-right:16px; }
-  .brand-logo-full { display:block; width:120px; max-height:36px; }
-  .footer-logo-full { width:150px; max-height:44px; }
+  .brand-logo-full { display:block; width:138px; max-height:42px; }
+  .footer-logo-full { width:165px; max-height:48px; }
 }
 
 
