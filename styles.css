@@ -495,3 +495,9 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
   text-align: justify;
   text-align-last: center;
 }
+
+/* v19: move the header logo farther left without changing the HTML */
+.site-header { padding-left: 8px !important; }
+@media (max-width:720px) {
+  .site-header { padding-left: 8px !important; }
+}
