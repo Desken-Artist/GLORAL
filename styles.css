@@ -511,10 +511,10 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
 /* v22: explicitly move the header logo left on desktop and mobile */
 .site-header .brand-logo-full {
   position: relative !important;
-  left: -18px !important;
+  left: -14px !important;
 }
 @media (max-width: 720px) {
   .site-header .brand-logo-full {
-    left: -28px !important;
+    left: -24px !important;
   }
 }
