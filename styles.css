@@ -239,7 +239,6 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
 .all-artworks-section { min-height:60vh; }
 
 @media (max-width: 720px) {
-  .site-header { padding:12px 15px; }
   .menu-toggle { width:40px; height:40px; }
   .hero { min-height:720px; }
   .hero-content { padding:35px 16px 45px; }
@@ -364,7 +363,6 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
 .language-toggle:hover { background:#eef1e9; }
 @media(max-width:720px){
   .language-toggle { padding:7px 10px; font-size:.68rem; margin-right:7px; }
-  .site-header { padding-left:14px; padding-right:14px; }
 }
 
 /* v18: larger logos, with the header logo's left edge aligned to the hero banner text */
@@ -373,7 +371,6 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
 .footer-brand { justify-content:center; }
 .footer-logo-full { display:block; width:clamp(180px,21vw,225px); max-height:62px; object-fit:contain; }
 @media (max-width:720px) {
-  .site-header { padding-left:20px; padding-right:20px; }
   .brand-logo-full { display:block; width:155px; max-height:48px; }
   .footer-logo-full { width:175px; max-height:52px; }
 }
@@ -496,25 +493,22 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
   text-align-last: center;
 }
 
-/* v21: nudge the header logo left on both desktop and mobile. */
+
+/* Final logo alignment: match the visible G to the banner text gutter. */
 .site-header {
-  padding-left: calc(clamp(20px, 6vw, 90px) - 8px) !important;
-  padding-right: clamp(20px, 6vw, 90px) !important;
+  padding-left: clamp(20px, 6vw, 90px);
+  padding-right: clamp(20px, 6vw, 90px);
+}
+.site-header .brand-logo-full {
+  position: relative;
+  left: -5px; /* compensate for transparent pixels inside the logo image */
 }
 @media (max-width: 720px) {
   .site-header {
-    padding-left: 0 !important;
-    padding-right: 22px !important;
+    padding-left: 22px; /* same gutter as .hero-content on mobile */
+    padding-right: 22px;
   }
-}
-
-/* v22: explicitly move the header logo left on desktop and mobile */
-.site-header .brand-logo-full {
-  position: relative !important;
-  left: -6px !important;
-}
-@media (max-width: 720px) {
   .site-header .brand-logo-full {
-    left: -16px !important;
+    left: -4px; /* compensate for the logo's transparent left edge */
   }
 }
