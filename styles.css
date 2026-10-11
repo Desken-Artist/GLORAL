@@ -496,8 +496,15 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
   text-align-last: center;
 }
 
-/* v19: move the header logo farther left without changing the HTML */
-.site-header { padding-left: 8px !important; }
-@media (max-width:720px) {
-  .site-header { padding-left: 8px !important; }
+/* v20: align the header logo with the hero banner text at each screen size.
+   Desktop uses the same responsive left gutter as the hero; mobile matches its 22px gutter. */
+.site-header {
+  padding-left: clamp(20px, 6vw, 90px) !important;
+  padding-right: clamp(20px, 6vw, 90px) !important;
+}
+@media (max-width: 720px) {
+  .site-header {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
 }
