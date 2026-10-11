@@ -496,16 +496,14 @@ footer p { max-width:600px; margin:15px auto; font-size:.83rem; }
   text-align-last: center;
 }
 
-/* v20: align the header logo with the hero banner text at each screen size.
-   Desktop uses the same responsive left gutter as the hero; mobile matches its 22px gutter. */
+/* v21: nudge the header logo left on both desktop and mobile. */
 .site-header {
-  padding-left: clamp(20px, 6vw, 90px) !important;
+  padding-left: calc(clamp(20px, 6vw, 90px) - 8px) !important;
   padding-right: clamp(20px, 6vw, 90px) !important;
 }
 @media (max-width: 720px) {
   .site-header {
-    /* Move the logo's visible left edge toward the banner text's 22px gutter. */
-    padding-left: 8px !important;
+    padding-left: 0 !important;
     padding-right: 22px !important;
   }
 }
