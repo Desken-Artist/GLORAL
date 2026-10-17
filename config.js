@@ -10,16 +10,16 @@
   5. Keep the filenames in this list exactly the same as your files.
 */
 
-const WHATSAPP_NUMBER = "237XXXXXXXXX";
+const WHATSAPP_NUMBER = "237672998354";
 
 // Contact & social links — replace these placeholders with your real details.
-const CONTACT_EMAIL = "your-email@example.com";
+const CONTACT_EMAIL = "deskenemail@gmail.com";
 const TIKTOK_URL = "https://www.tiktok.com/@yourusername";
 const FACEBOOK_URL = "https://www.facebook.com/yourusername";
 const YOUTUBE_URL = "https://www.youtube.com/@yourusername";
 const INSTAGRAM_URL = "https://www.instagram.com/yourusername";
 
 // Paste your WhatsApp Community/group invite link between the quotation marks.
-const WHATSAPP_COMMUNITY_URL = "PASTE_YOUR_WHATSAPP_GROUP_LINK_HERE";
+const WHATSAPP_COMMUNITY_URL = "https://whatsapp.com/channel/0029VbDrTcYCnA7k1x9tN11z";
 
 const ARTWORKS = [];
