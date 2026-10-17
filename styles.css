@@ -185,15 +185,21 @@ h1 strong { color:var(--gold-light); font-weight:600; }
 .about-copy blockquote { border-left:3px solid var(--gold); padding-left:20px; font-family:"Cormorant Garamond",serif; font-size:1.5rem; color:var(--forest); margin-top:30px; }
 
 .about-gloliart { background:var(--forest-deep); color:#fff; }
-.about-gloliart .section-heading h2 { color:#fff; }
-.about-gloliart .section-heading p:last-child { color:rgba(255,255,255,.65); }
+.about-gloliart .section-heading { margin-bottom:30px; }
+.about-gloliart .section-heading h2 { color:#fff; font-size:clamp(2rem,3.5vw,3.2rem); line-height:1; white-space:nowrap; }
+.about-gloliart .section-heading p:last-child { color:rgba(255,255,255,.65); font-size:clamp(.82rem,1.25vw,.98rem); line-height:1.4; white-space:nowrap; }
 .centered { display:block; text-align:center; }
-.centered > p:last-child { margin:15px auto 0; }
-.about-video { position:relative; max-width:1000px; margin:40px auto 0; border-radius:22px; overflow:hidden; background:#091914; box-shadow:var(--shadow); }
-.about-video video { width:100%; aspect-ratio:16/9; object-fit:cover; }
+.centered > p:last-child { margin:10px auto 0; }
+.about-video { position:relative; width:min(1150px,100%); max-width:1150px; margin:28px auto 0; border-radius:22px; overflow:hidden; background:#091914; box-shadow:var(--shadow); }
+.about-video video { display:block; width:100%; aspect-ratio:16/9; object-fit:contain; background:#091914; }
 /* Hide the temporary text overlay so the About GLORAL Arts video is unobstructed. */
 .video-placeholder { display:none !important; }
-.about-video video { display:block; width:100%; aspect-ratio:16/9; object-fit:contain; background:#091914; }
+@media (max-width:720px) {
+  .about-gloliart .section-heading { margin-bottom:24px; }
+  .about-gloliart .section-heading h2 { font-size:clamp(1.65rem,7.5vw,2.35rem); white-space:nowrap; }
+  .about-gloliart .section-heading p:last-child { font-size:clamp(.7rem,3.2vw,.82rem); white-space:nowrap; }
+  .about-video { width:100%; margin-top:22px; border-radius:15px; }
+}
 
 .cta { margin:0; padding:70px clamp(20px,8vw,120px); background:#dfe7d9; display:flex; align-items:center; justify-content:space-between; gap:30px; }
 .cta h2 { color:var(--forest); font-size:clamp(2.3rem,4vw,4rem); max-width:800px; }
